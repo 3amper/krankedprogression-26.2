@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": "minecraft:wooden_pickaxe",
+  "addition": "minecraft:stone",
+  "result": {
+    "id": "minecraft:stone_pickaxe"
+  }
+}

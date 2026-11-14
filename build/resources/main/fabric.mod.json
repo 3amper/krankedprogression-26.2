@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "krankedprogression",
+	"version": "1.0.0",
+	"name": "krankedprogression",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"3amper"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/krankedprogression/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.krankedprogression.Krankedprogression"
+		],
+		"client": [
+			"com.krankedprogression.client.KrankedprogressionClient"
+		]
+	},
+	"mixins": [
+		"krankedprogression.mixins.json",
+		{
+			"config": "krankedprogression.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

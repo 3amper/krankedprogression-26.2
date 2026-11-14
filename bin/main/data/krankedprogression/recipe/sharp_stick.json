@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "krankedprogression:sharp_stick"
+  }
+}

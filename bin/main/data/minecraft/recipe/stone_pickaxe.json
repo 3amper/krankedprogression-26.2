@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "~/~",
+    " / "
+  ],
+  "key": {
+    "#": "#minecraft:stone_tool_materials",
+    "~": "minecraft:string",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:stone_pickaxe"
+  }
+}

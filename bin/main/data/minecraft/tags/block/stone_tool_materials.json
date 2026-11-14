@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "remove": [
+    "minecraft:cobblestone",
+    "minecraft:cobbled_deepslate"
+  ],
+  "add": [
+    "minecraft:stone",
+    "minecraft:deepslate"
+  ]
+}
